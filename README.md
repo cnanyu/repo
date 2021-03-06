@@ -1,2 +1,2 @@
-Xarpe"s Cydia Repo
-https://Xarpe.gitee.io
+Harpe's Cydia Repo
+https://cnanyu.gitio.com/repo
