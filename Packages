@@ -51,16 +51,16 @@ Name: AppSync Unified 关闭签名
 Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: com.harpe.flya
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: Harpe
-Installed-Size: 204
+Installed-Size: 140
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.harpe.flya_0.0.2_iphoneos-arm.deb
-Size: 54302
-MD5sum: 05fcb0fd5b6985d585044c5f688af857
-SHA1: 3ed486f802d7d5379806afa128caf7fcc1a65242
-SHA256: 0053e4bb4d9bcfb5e9de0ec64b13e5215f117a9f33f523de65d229439355b516
+Filename: ./debs/Tweaks/com.harpe.flya_0.0.3_iphoneos-arm.deb
+Size: 25326
+MD5sum: 349c51255fd022dee31615815a9b0f52
+SHA1: 4fdf33ad6095a07834e17c45d80458da64d21f6a
+SHA256: e9bca391471d76bb4af0f362838c53b960b92e172b7b3a54537fbd6f8ae4a2a7
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Harpe
