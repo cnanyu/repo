@@ -1,10 +1,62 @@
+Package: AWZ
+Version: 12.8.6
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, coreutils-bin, zip, unzip
+Conflicts: app.weiphone.ALS, app.weiphone.IGG, app.weiphone.NZT, app.weiphone.LRN, app.weiphone.HBS, app.weiphone.YOY
+Filename: ./debs/device/AWZ_12.8.6.deb
+Size: 13834436
+MD5sum: c9e8d2f60b8874fd43ed5a6ec4d3f9d5
+SHA1: e86cc10949f08f84ee8f1349ccbd775d923e14c6
+SHA256: c7219c979fa3f9fca116da177e9126363d8233689c7ba5983d692d5c04126235
+Section: AWZ爱伪装
+Priority: standard
+Author: awz
+Icon: file:///Applications/AWZ.app/AWZAppIcon60x60@2x.png
+Name: AWZ爱伪装 v12.8.6
+
+Package: apt.zorrovip.com.zorro-5.7.3
+Version: 5.7.3
+Architecture: iphoneos-arm
+Maintainer: zorro官方正式源
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/device/apt.zorrovip.com.zorro-5.7.3_5.7.3.deb
+Size: 9407178
+MD5sum: 110d097ddc302b398917256803f16830
+SHA1: f8a31343c9132f5055335cd55b2d789f1ec708cb
+SHA256: 99d1bcaba992b521f1a7faff93b7d376a6056e0789fbb5a1f70a3ceab1575c5d
+Section: zorro
+Priority: optional
+Author: zorro
+Icon: icon.png
+Name: zorro全系備份私隱保護-5.7.3
+
+Package: com.abcydia.appsyncunified10
+Version: 90.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/system/com.abcydia.appsyncunified10_90.0.deb
+Size: 58428
+MD5sum: 8f467fbc5f97c5cca2544a2b83cecd4e
+SHA1: e106280a7dc56b689a361ceb0c287c240a9ed82d
+SHA256: b0fca5beb9cb75a1844431841e7f22589c643e20a3090c6e5a2a01b9edbc9bba
+Section: Tweaks
+Description: 关闭iOS App签名校验
+Author: Karen, Linus Yang
+Name: AppSync Unified 关闭签名
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.harpe.flya
 Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Harpe
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/系统/com.harpe.flya_0.0.1_iphoneos-arm.deb
+Filename: ./debs/Tweaks/com.harpe.flya_0.0.1_iphoneos-arm.deb
 Size: 53402
 MD5sum: f40e461305b38b391ce222180b8f257f
 SHA1: 4ac4f43fd428a25c3e751439fa885458fbfe5754
@@ -13,4 +65,21 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Harpe
 Name: flya
+
+Package: com.touchsprite.ios.arm64.pro.v3
+Version: 3.1.5
+Architecture: iphoneos-arm
+Maintainer: 北京帮你玩科技有限公司 <support@touchsprite.com>
+Depends: mobilesubstrate, firmware (>= 7.0)
+Replaces: com.ts.touchsprite, com.darwindev.touchsprite, repo.so.touchsprite, touchsprite.178, com.touchsprite.ios
+Filename: ./debs/device/com.touchsprite.ios.arm64.pro.3_3.1.5.deb
+Size: 11956150
+MD5sum: c7dc56e4f5dce8c9b7ab3607c845a312
+SHA1: 7dc7ef0ecf01d15eba59cac3061ccd90a208bc96
+SHA256: d6b14b1745eb81d5fc7128c2e45ed1f7271c2f18807d944b2900784a7f1af1ac
+Section: 触动专业版（适配 iOS8~14.x）
+Author: 北京帮你玩科技有限公司 <support@touchsprite.com>
+Icon: file:///Applications/TouchSprite.app/icon.png
+Name: 触动精灵专业版(arm64)
+Sponsor: 北京帮你玩科技有限公司 <http://www.touchsprite.com>
 
