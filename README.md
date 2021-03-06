@@ -1,2 +1,2 @@
 Harpe's Cydia Repo
-https://cnanyu.gitihub.io/repo
+https://cnanyu.github.io/repo
