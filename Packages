@@ -30,6 +30,28 @@ Author: zorro
 Icon: icon.png
 Name: zorro全系備份私隱保護-5.7.3
 
+Package: com.abcydia.afc2forios11
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 672
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/system/afc2forios11_1.3.1.deb
+Size: 20324
+MD5sum: 78107ba9e7a31c020cd64fd33ae6c1d0
+SHA1: 3cd0c82ad9fbd5c4428b60453b0464ce46ae7255
+SHA256: e68a24a0e19cb6b0d183c2f945418349456e69933de77374c65d2cbf3257fb74
+Section: System
+Description: 激活PC端 全路径访问权限
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Saurik, Cannathe
+Name: AFC2 iOS11~13 系统路径
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.abcydia.appsyncunified10
 Version: 90.0
 Architecture: iphoneos-arm
@@ -39,7 +61,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/system/com.abcydia.appsyncunified10_90.0.deb
+Filename: ./debs/system/appsyncunified10_90.0.deb
 Size: 58428
 MD5sum: 8f467fbc5f97c5cca2544a2b83cecd4e
 SHA1: e106280a7dc56b689a361ceb0c287c240a9ed82d
@@ -73,7 +95,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 29112
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
-Filename: ./debs/system/com.tigisoftware.filza_3.8.1-29.deb
+Filename: ./debs/tools/filza_3.8.1-29.deb
 Size: 9529174
 MD5sum: 245e8bf0ca69f5410690a54d65780569
 SHA1: 848fee7311c1a980e6c38dea75f8ce4974b2079a
@@ -106,4 +128,54 @@ Author: 北京帮你玩科技有限公司 <support@touchsprite.com>
 Icon: file:///Applications/TouchSprite.app/icon.png
 Name: 触动精灵专业版(arm64)
 Sponsor: 北京帮你玩科技有限公司 <http://www.touchsprite.com>
+
+Package: openssh
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-server, openssh-client, openssh-global-listener
+Filename: ./debs/system/openssh_8.4-2_iphoneos-arm.deb
+Size: 1022
+MD5sum: 6c1f11f33cf21944c892351e0ea3b9c1
+SHA1: 018ccd5f56ddd90d3ba3a391e5cf6c7ddce2bae9
+SHA256: aa7417489ad4d823713905347804b3fd1f481b710ec2512bed9d22b356875454
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: re.frida.server
+Version: 14.2.13
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 23028
+Conflicts: re.frida.server64
+Filename: ./debs/tools/re.frida.server_14.2.13.deb
+Size: 6001272
+MD5sum: 198ac9e70f194d3e0d0cfe6d2b385ade
+SHA1: 4318c057b985818bcdac237d92659323ba893cad
+SHA256: 11b3ed48b85ac8fea9cb743e199902d2de1ad8ae2d1eeb77a32f1ad18015ff3d
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida for pre-A12 devices
 
