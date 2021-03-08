@@ -107,21 +107,3 @@ Icon: file:///Applications/TouchSprite.app/icon.png
 Name: 触动精灵专业版(arm64)
 Sponsor: 北京帮你玩科技有限公司 <http://www.touchsprite.com>
 
-Package: re.frida.server
-Version: 14.2.13
-Architecture: iphoneos-arm
-Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
-Installed-Size: 23028
-Conflicts: re.frida.server64
-Filename: ./debs/tools/re.frida.server_14.2.13.deb
-Size: 6001272
-MD5sum: 198ac9e70f194d3e0d0cfe6d2b385ade
-SHA1: 4318c057b985818bcdac237d92659323ba893cad
-SHA256: 11b3ed48b85ac8fea9cb743e199902d2de1ad8ae2d1eeb77a32f1ad18015ff3d
-Section: Development
-Priority: optional
-Homepage: https://www.frida.re/
-Description: Inject JavaScript to explore iOS apps over USB.
-Author: Frida Developers <oleavr@nowsecure.com>
-Name: Frida for pre-A12 devices
-
