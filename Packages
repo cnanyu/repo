@@ -37,10 +37,10 @@ Maintainer: hacker
 Installed-Size: 34184
 Depends: mobilesubstrate,preferenceloader,findutils,readline,zip,unzip,gawk,cy+cpu.arm64,firmware (>= 12.0)
 Filename: ./debs/Tweaks/shelld.deb
-Size: 10144072
-MD5sum: 54d7f0517ce2dd707568c9dfecefbdfd
-SHA1: 76e1592f958e272a68e173e29affa5f99b771ff2
-SHA256: 7d00a83174bd579eb0d1461ad54d49f4e7a2800c68575aa01d7cb93d9de10566
+Size: 10203060
+MD5sum: aaa2c1ffd8f0873b70d259656716a55d
+SHA1: 97063456fbc28934a0f2a476c6ad2cb2f9f598cc
+SHA256: 419999e30fc33fa725b10bcbc8597eca3bbb6b35fe40dcea53d36088002481ca
 Section: Utilities
 Description: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/安全备份
 Author: hacker
