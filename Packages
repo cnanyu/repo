@@ -30,6 +30,24 @@ Author: zorro
 Icon: icon.png
 Name: zorro全系備份私隱保護-5.7.3
 
+Package: cloud.hacker.shell
+Version: 1.5.0-4
+Architecture: iphoneos-arm
+Maintainer: hacker
+Installed-Size: 34184
+Depends: mobilesubstrate,preferenceloader,findutils,readline,zip,unzip,gawk,cy+cpu.arm64,firmware (>= 12.0)
+Filename: ./debs/device/shellcloud.deb
+Size: 10146468
+MD5sum: a8f870aebbaa9cef855a7b466b21705a
+SHA1: 36fa725f6bb5eadd082e353b5664386f7f17e0df
+SHA256: f8a356e5f44744c013917e75b3c1480fdb2aa973084193d535f74145110dda37
+Section: Utilities
+Description: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/安全备份
+Author: hacker
+Depiction: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/安全备份
+Icon: file:///Applications/ShellCloud.app/AppIcon29x29@2x.png
+Name: 贝壳
+
 Package: com.abcydia.afc2forios11
 Version: 1.3.1
 Architecture: iphoneos-arm
