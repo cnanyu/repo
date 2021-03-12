@@ -36,7 +36,7 @@ Architecture: iphoneos-arm
 Maintainer: hacker
 Installed-Size: 34184
 Depends: mobilesubstrate,preferenceloader,findutils,readline,zip,unzip,gawk,cy+cpu.arm64,firmware (>= 12.0)
-Filename: ./debs/tools/cloud.hacker.shell_1.5.0-4.deb
+Filename: ./debs/device/cloud.deb
 Size: 11013548
 MD5sum: 1cf698ddc9afb410ee9713c6cc13b319
 SHA1: d8a055cea001644c5e03c107c054c438ac5ec10b
