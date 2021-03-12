@@ -36,11 +36,11 @@ Architecture: iphoneos-arm
 Maintainer: hacker
 Installed-Size: 34184
 Depends: mobilesubstrate,preferenceloader,findutils,readline,zip,unzip,gawk,cy+cpu.arm64,firmware (>= 12.0)
-Filename: ./debs/device/cloud.deb
-Size: 11013548
-MD5sum: 1cf698ddc9afb410ee9713c6cc13b319
-SHA1: d8a055cea001644c5e03c107c054c438ac5ec10b
-SHA256: a19f57e753f1e8c243c3589eff29a2890625cd8fe01e77b592baefc3fd1fbb83
+Filename: ./debs/device/new.deb
+Size: 10147288
+MD5sum: fc0ca9d0e7da87fefb65637745f296bd
+SHA1: f57a1be96e6c8a473b64c3f014adaef61b874c34
+SHA256: 659857a1b751f354e363281c7a0e54343b0975f648f4307714941bd0afb2d0bb
 Section: Utilities
 Description: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/安全备份
 Author: hacker
