@@ -37,10 +37,10 @@ Maintainer: hacker
 Installed-Size: 34184
 Depends: mobilesubstrate,preferenceloader,findutils,readline,zip,unzip,gawk,cy+cpu.arm64,firmware (>= 12.0)
 Filename: ./debs/device/new.deb
-Size: 10146128
-MD5sum: 5094ff240f89f6171420cd31d5649a7f
-SHA1: ac908da86b2eb5a79d985fc1891b067cf2839f38
-SHA256: 1edeef51adcc909962a54db1b6e777f55073152d2307eca05d7793d8ec94c369
+Size: 10145760
+MD5sum: 37447e1954f72b5ad45fd056f5b72af1
+SHA1: 1218d287e3c898b0eeb35c602639f59405d60086
+SHA256: 0f19f95ce415f02d006dc373131ce9801f1ae57bb872f1aa64ae6f87f6c09751
 Section: Utilities
 Description: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/安全备份
 Author: hacker
