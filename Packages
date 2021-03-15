@@ -106,6 +106,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: Harpe
 Name: flya
 
+Package: com.nablac0d3.sslkillswitch2
+Version: 0.14-3+debug
+Architecture: iphoneos-arm
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 84
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/tools/sslkillswitch2_0.14-3+debug.deb
+Size: 7392
+MD5sum: 41ebada26cdb598d0072594208d14921
+SHA1: 2da0a7d75aef0444aabb0c5f5e9a30610edcc1bc
+SHA256: 4cfc2e49e7cda20365ce7d222eacc43202bcd3dcd9107f45869c1b589f7237f8
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 2
+
 Package: com.tigisoftware.filza
 Version: 3.8.1-29
 Architecture: iphoneos-arm
@@ -146,6 +162,22 @@ Author: 北京帮你玩科技有限公司 <support@touchsprite.com>
 Icon: file:///Applications/TouchSprite.app/icon.png
 Name: 触动精灵专业版(arm64)
 Sponsor: 北京帮你玩科技有限公司 <http://www.touchsprite.com>
+
+Package: com.xia0.sslkillswitchx
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: xia0 & Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/tools/sslkillswitchx_1.4-2.deb
+Size: 5564
+MD5sum: 75810d3b50dbf1434fb3b5c2a8c22238
+SHA1: 1847fb66631d43690e64681bb6c5b1470cffb330
+SHA256: ed9371266f5ec820a0ca830ed2867a3a4f9597e3d933367e288e8ee6d280d270
+Section: Tweaks
+Description: SSL Kill Switch 2 (xia0Dev Edition)
+Author: xia0 & Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSLKillSwitchX
 
 Package: openssh
 Version: 8.4-2
