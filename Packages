@@ -123,6 +123,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: Harpe
 Name: flya
 
+Package: com.harpe.flyz
+Version: 0.0.1+debug
+Architecture: iphoneos-arm
+Maintainer: Harpe
+Installed-Size: 292
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Tweaks/com.harpe.flyz_0.0.1+debug_iphoneos-arm.deb
+Size: 74928
+MD5sum: 43bc3424bdf74668dd5ea4372ac691c4
+SHA1: b2d8fc67cff49b18c90d99b953f9bca88e88b82d
+SHA256: 43933ff18228d61152ebc3d09facf86ff9d577b1a911b2b4a68782da4de54b3d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Harpe
+Name: flyz
+
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.14-3+debug
 Architecture: iphoneos-arm
@@ -229,20 +245,20 @@ Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
 Package: re.frida.server
-Version: 14.2.13
+Version: 14.2.15
 Architecture: iphoneos-arm
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
-Installed-Size: 23028
+Installed-Size: 49764
 Conflicts: re.frida.server64
-Filename: ./debs/tools/re.frida.server_14.2.13.deb
-Size: 6001272
-MD5sum: 198ac9e70f194d3e0d0cfe6d2b385ade
-SHA1: 4318c057b985818bcdac237d92659323ba893cad
-SHA256: 11b3ed48b85ac8fea9cb743e199902d2de1ad8ae2d1eeb77a32f1ad18015ff3d
+Filename: ./debs/tools/re.frida.server_14.2.15.deb
+Size: 12747804
+MD5sum: feeab3eb29f7421e3e936cf96344e51c
+SHA1: 8f386656cd092c4adc0d19caa3eadd6bc88866f8
+SHA256: 035b07af8d44f007ef7dca11a4c10c26c60fcac80aa69cf3448770cf66e963f7
 Section: Development
 Priority: optional
 Homepage: https://www.frida.re/
 Description: Inject JavaScript to explore iOS apps over USB.
 Author: Frida Developers <oleavr@nowsecure.com>
-Name: Frida for pre-A12 devices
+Name: Frida
 
