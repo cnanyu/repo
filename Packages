@@ -124,16 +124,16 @@ Author: Harpe
 Name: flya
 
 Package: com.harpe.flyz
-Version: 0.0.1+debug
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: Harpe
-Installed-Size: 292
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.harpe.flyz_0.0.1+debug_iphoneos-arm.deb
-Size: 74928
-MD5sum: 43bc3424bdf74668dd5ea4372ac691c4
-SHA1: b2d8fc67cff49b18c90d99b953f9bca88e88b82d
-SHA256: 43933ff18228d61152ebc3d09facf86ff9d577b1a911b2b4a68782da4de54b3d
+Filename: ./debs/Tweaks/com.harpe.flyz_0.0.2_iphoneos-arm.deb
+Size: 5736
+MD5sum: 495f7092097821b510168fd5f6a4879d
+SHA1: f54c4fef98e632c9dca667fa9f757b5e538bb4eb
+SHA256: 509d6dfd8c040104600fe320c108333e194de21bcf19cbcd78e2554ac12b68e3
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Harpe
