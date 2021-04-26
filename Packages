@@ -36,7 +36,7 @@ Version: 5.7.3
 Architecture: iphoneos-arm
 Maintainer: zorro官方正式源
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/device/apt.zorrovip.com.zorro-5.7.3_5.7.3.deb
+Filename: ./debs/device/zorro-5.7.3_5.7.3.deb
 Size: 9407178
 MD5sum: 110d097ddc302b398917256803f16830
 SHA1: f8a31343c9132f5055335cd55b2d789f1ec708cb
@@ -106,6 +106,22 @@ Description: 关闭iOS App签名校验
 Author: Karen, Linus Yang
 Name: AppSync Unified 关闭签名
 Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.apt.xmcydia.com.zorro576
+Version: 5.7.6
+Architecture: iphoneos-arm
+Maintainer: zorro官方正式源
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/device/zorro576_5.7.6.deb
+Size: 9459656
+MD5sum: acdfce096030ccd5a40f198aef0876a6
+SHA1: 2955fa33718c7b464986857c2ce7070d80a14c60
+SHA256: 0cd14fdeb87c3561f2dedeb70b6a21fbe048af75b5af33b03df786525b99cebf
+Section: zorro佐罗
+Priority: optional
+Author: zorro
+Icon: icon.png
+Name: zorro全系備份私隱保護5.7.6
 
 Package: com.harpe.flya
 Version: 0.0.5
