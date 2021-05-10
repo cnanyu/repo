@@ -1,18 +1,18 @@
 Package: AWZ
-Version: 12.8.6
+Version: 12.8.1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, coreutils-bin, zip, unzip
 Conflicts: app.weiphone.ALS, app.weiphone.IGG, app.weiphone.NZT, app.weiphone.LRN, app.weiphone.HBS, app.weiphone.YOY
-Filename: ./debs/device/AWZ_12.8.6.deb
-Size: 13834436
-MD5sum: c9e8d2f60b8874fd43ed5a6ec4d3f9d5
-SHA1: e86cc10949f08f84ee8f1349ccbd775d923e14c6
-SHA256: c7219c979fa3f9fca116da177e9126363d8233689c7ba5983d692d5c04126235
+Filename: ./debs/device/AWZ_12.8.1.deb
+Size: 14269010
+MD5sum: c47add46b5c7aa8a873c916a30653c46
+SHA1: da4a755d92f01719e609cd2b06cd291c3951b454
+SHA256: 5d806d17bdfd979faac61edba97f29286c89f7370e4e0e0fabae4c7129e9d54d
 Section: AWZ爱伪装
 Priority: standard
 Author: awz
 Icon: file:///Applications/AWZ.app/AWZAppIcon60x60@2x.png
-Name: AWZ爱伪装 v12.8.6
+Name: AWZ爱伪装 v12.8.1
 
 Package: GZSD
 Version: 1.0.2-3
