@@ -124,16 +124,16 @@ Icon: icon.png
 Name: zorro全系備份私隱保護5.7.6
 
 Package: com.harpe.flya
-Version: 0.0.6
+Version: 0.0.7
 Architecture: iphoneos-arm
 Maintainer: Harpe
 Installed-Size: 124
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.harpe.flya_0.0.6_iphoneos-arm.deb
-Size: 29248
-MD5sum: 9a8599de41ebef1569b2537264e669ee
-SHA1: 0172f11241a4431c5e3c00b729795587cec40ff3
-SHA256: 5aef39c447f540f9e93463d04bdbd9e203f6ffc2112df0b20a1fa79e781c1893
+Filename: ./debs/Tweaks/com.harpe.flya_0.0.7_iphoneos-arm.deb
+Size: 29768
+MD5sum: ed27e3f989d1b9e12ff53d86587f91da
+SHA1: 827562726147b93ef1fbc2911330782455b38183
+SHA256: 7eb2ed394f4cff279f3d14b2d7e87902ffadfdfd5a486bc0aabb4a45dbaca7f3
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Harpe
