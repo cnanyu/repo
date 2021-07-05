@@ -31,22 +31,6 @@ Author: 自赚助手1.0.2
 Name: 自赚助手1.0.2
 Sponsor: 自赚助手1.0.2
 
-Package: apt.zorrovip.com.zorro-5.7.3
-Version: 5.7.3
-Architecture: iphoneos-arm
-Maintainer: zorro官方正式源
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/device/zorro-5.7.3_5.7.3.deb
-Size: 9407178
-MD5sum: 110d097ddc302b398917256803f16830
-SHA1: f8a31343c9132f5055335cd55b2d789f1ec708cb
-SHA256: 99d1bcaba992b521f1a7faff93b7d376a6056e0789fbb5a1f70a3ceab1575c5d
-Section: zorro
-Priority: optional
-Author: zorro
-Icon: icon.png
-Name: zorro全系備份私隱保護-5.7.3
-
 Package: cloud.hacker.shell
 Version: 1.5.0-4
 Architecture: iphoneos-arm
@@ -107,21 +91,21 @@ Author: Karen, Linus Yang
 Name: AppSync Unified 关闭签名
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.apt.xmcydia.com.zorro576
-Version: 5.7.6
+Package: com.apt.xmcydia.com.zorro581-2
+Version: 5.8.1-2
 Architecture: iphoneos-arm
 Maintainer: zorro官方正式源
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/device/zorro576_5.7.6.deb
-Size: 9459656
-MD5sum: acdfce096030ccd5a40f198aef0876a6
-SHA1: 2955fa33718c7b464986857c2ce7070d80a14c60
-SHA256: 0cd14fdeb87c3561f2dedeb70b6a21fbe048af75b5af33b03df786525b99cebf
+Filename: ./debs/device/com.zorro581.deb
+Size: 8448080
+MD5sum: 8860fa4eb4a9296b5701ce466b02dc7b
+SHA1: df26e077b2d49788be48a26c00ae7380d6524a64
+SHA256: e3869e68720062263c2b76d8a20c599ec08dfaadf29c42b356b5c3046f66ee34
 Section: zorro佐罗
 Priority: optional
 Author: zorro
 Icon: icon.png
-Name: zorro全系備份私隱保護5.7.6
+Name: zorro全系備份私隱保護5.8.1-2
 
 Package: com.harpe.flya
 Version: 0.0.7
