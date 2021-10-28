@@ -107,37 +107,19 @@ Author: zorro
 Icon: icon.png
 Name: zorro全系備份私隱保護5.8.1-2
 
-Package: com.harpe.flya
-Version: 0.0.7
+Package: com.harpe.Taotao
+Version: 0.1.2
 Architecture: iphoneos-arm
-Maintainer: Harpe
-Installed-Size: 124
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.harpe.flya_0.0.7_iphoneos-arm.deb
-Size: 29768
-MD5sum: ed27e3f989d1b9e12ff53d86587f91da
-SHA1: 827562726147b93ef1fbc2911330782455b38183
-SHA256: 7eb2ed394f4cff279f3d14b2d7e87902ffadfdfd5a486bc0aabb4a45dbaca7f3
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/Tweaks/com.harpe.Taotao_0.1.2_iphoneos-arm.deb
+Size: 55076
+MD5sum: fd67dcfd264aeb7944b73a751ea9630a
+SHA1: f98f3a5ca1001d7853272729432f9f930d3dcb2a
+SHA256: 44a050d1402f112dec83358761259d9fabb5f7b1772292faceef03151b78ec80
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Priority: optional
 Author: Harpe
-Name: flya
-
-Package: com.harpe.flyz
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: Harpe
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Tweaks/com.harpe.flyz_0.0.2_iphoneos-arm.deb
-Size: 5736
-MD5sum: 495f7092097821b510168fd5f6a4879d
-SHA1: f54c4fef98e632c9dca667fa9f757b5e538bb4eb
-SHA256: 509d6dfd8c040104600fe320c108333e194de21bcf19cbcd78e2554ac12b68e3
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: Harpe
-Name: flyz
+Name: Taotao
 
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.14-3+debug
