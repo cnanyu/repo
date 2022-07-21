@@ -112,10 +112,10 @@ Version: 0.1.4
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/Tweaks/com.harpe.TaoDevice_0.1.4_iphoneos-arm.deb
-Size: 14686
-MD5sum: d68c939bd66fb5e7980ce8abb152aa4a
-SHA1: bf20a642ec28c7a7ec069821c956ecd589ef5c3f
-SHA256: c2a7035cbc00ea821c1e57342f7dc360ed52925c151fc3a039cc4c5ca64df98a
+Size: 14706
+MD5sum: 50b8da808ff2c5614cd86257a01fd3bf
+SHA1: 00415c00a45c81181389981d8a84a79da7018655
+SHA256: 94cb508a97787307c7455d36ceb6a45f9d915028e8406ddea8acf25e552e4082
 Section: Tweaks
 Priority: optional
 Author: Harpe
