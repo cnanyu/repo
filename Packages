@@ -258,3 +258,19 @@ Description: Inject JavaScript to explore iOS apps over USB.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
 
+Package: zorro5889
+Version: 5.8.8-9
+Architecture: iphoneos-arm
+Maintainer: zorroapp.cn
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/device/com.zorro588.deb
+Size: 8202488
+MD5sum: 552b3a53c6708c84a1164e72cb362d1a
+SHA1: dbd60540d27f8c1738fee81943436a0071dfcacc
+SHA256: 3be81f0f7c01fb6c61a9fda615a0d3e2c7ec172b228d9a2f44a12e9a1672b54a
+Section: [佐罗ZORRO iOS7-15]
+Priority: optional
+Author: zorroapp.cn
+Icon: icon.png
+Name: zorro全系備份5.8.8-9完美修复版
+
