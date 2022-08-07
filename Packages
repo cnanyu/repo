@@ -263,14 +263,14 @@ Version: 5.8.8-9
 Architecture: iphoneos-arm
 Maintainer: zorroapp.cn
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/device/com.zorro588.deb
-Size: 8202488
-MD5sum: 552b3a53c6708c84a1164e72cb362d1a
-SHA1: dbd60540d27f8c1738fee81943436a0071dfcacc
-SHA256: 3be81f0f7c01fb6c61a9fda615a0d3e2c7ec172b228d9a2f44a12e9a1672b54a
+Filename: ./debs/device/zorro5889.deb
+Size: 8202408
+MD5sum: 5610a3b2f0289a9033af58e77fbe30ca
+SHA1: 35d8d06315ac84318334718b10dae22ae2586bb8
+SHA256: 31738c9cefc07507e7a79a66e6b4458565ebb25d00c5f6ab2e9eb7a2f708e950
 Section: [佐罗ZORRO iOS7-15]
 Priority: optional
 Author: zorroapp.cn
 Icon: icon.png
-Name: zorro全系備份5.8.8-9完美修复版
+Name: zorro全系備份5.8.8B
 
