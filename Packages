@@ -49,48 +49,6 @@ Depiction: 请勿用作非法用途/更安全/更可靠/更智能/深度清理/�
 Icon: file:///Applications/ShellCloud.app/AppIcon29x29@2x.png
 Name: 贝壳
 
-Package: com.abcydia.afc2forios11
-Version: 1.3.1
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 672
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64, mobilesubstrate, ldid
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/system/afc2forios11_1.3.1.deb
-Size: 20324
-MD5sum: 78107ba9e7a31c020cd64fd33ae6c1d0
-SHA1: 3cd0c82ad9fbd5c4428b60453b0464ce46ae7255
-SHA256: e68a24a0e19cb6b0d183c2f945418349456e69933de77374c65d2cbf3257fb74
-Section: System
-Description: 激活PC端 全路径访问权限
-Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
-Author: Saurik, Cannathe
-Name: AFC2 iOS11~13 系统路径
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.appsyncunified10
-Version: 90.0
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: ./debs/system/appsyncunified10_90.0.deb
-Size: 58428
-MD5sum: 8f467fbc5f97c5cca2544a2b83cecd4e
-SHA1: e106280a7dc56b689a361ceb0c287c240a9ed82d
-SHA256: b0fca5beb9cb75a1844431841e7f22589c643e20a3090c6e5a2a01b9edbc9bba
-Section: Tweaks
-Description: 关闭iOS App签名校验
-Author: Karen, Linus Yang
-Name: AppSync Unified 关闭签名
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.apt.xmcydia.com.zorro581-2
 Version: 5.8.1-2
 Architecture: iphoneos-arm
@@ -106,6 +64,213 @@ Priority: optional
 Author: zorro
 Icon: icon.png
 Name: zorro全系備份私隱保護5.8.1-2
+
+Package: com.gcydia.NetControl
+Version: 1.0.1-8
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Conflicts: com.abcydia.conditionalwifi4
+Filename: ./debs/system/com.gcydia.NetControl_1.0.1-8.deb
+Size: 694376
+MD5sum: 6d8ced203fa44bbb8870eebd47ba2611
+SHA1: da99095fd23104745e0d1c5bbabee37ccf563af1
+SHA256: cd0df0e30092ac6c21b4993f1ae94edd4ece3a21685d18ac2bcf2a2e9d228077
+Section: 越狱插件
+Tag: Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: ABCydia
+Icon: Icon: file:///Library/PreferenceBundles/NetControl.bundle/abcydia@2x.png
+Name: NetControl 联网控制
+
+Package: com.gcydia.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/system/com.gcydia.afc2d_1.2.deb
+Size: 18138
+MD5sum: b3a163f325210e35b16c52a67574bb2b
+SHA1: 65f06eac4468e939202b14d34ed846ee572ed647
+SHA256: df08105c342e4e491db42b995d593461c55f468e38c08998f93515e2da835e37
+Section: 越狱插件
+Priority: optional
+Tag: purpose::daemon, role::enduser
+Author: DSB
+Name: AFC2文件系统（越狱）
+
+Package: com.gcydia.appstoreplusplus
+Version: 0.9.15
+Architecture: iphoneos-arm
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/system/com.gcydia.appstoreplusplus_0.9.15.deb
+Size: 1690658
+MD5sum: 92b8f807ba7440f19843fde90cae8c8d
+SHA1: 79354056057cb6b2651dc9afcb2a295cc2442332
+SHA256: b3ac76a4df77baa5ef277eeaafbfc737ad996d6b52b03f7f5c6ca4a3ad892d22
+Section: 越狱插件
+Priority: optional
+Author: CokePokes
+Name: AppStore++「应用降级」
+
+Package: com.gcydia.appsyncunified10
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/system/com.gcydia.appsyncunified10_84.0.deb
+Size: 42150
+MD5sum: c219566e93acaad26731a1df22bf3b8f
+SHA1: bf5c03f973ba138110553f8199221c332b03a23e
+SHA256: 96475b10aec09d10da881e072f26307117690cab9c578778094525d5c8b7b7ae
+Section: 越狱插件
+Author: Linus Yang, Karen
+Name: AppSync Unified 关闭签名
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.gcydia.arm64
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 671
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/system/com.gcydia.arm64_1.1.1.deb
+Size: 19374
+MD5sum: 70419f5f42df298d41e94068ff5db647
+SHA1: 52537f6c71527cabd9f1c61e4f97a3624db62a1d
+SHA256: 98a4bd9d6cc6ecc985df89e43fe8e13f598730640f95abfebdabdd91cc87dda6
+Section: 越狱插件
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: saurik, Cannathea <csupport@cannathea.com>
+Name: AFC2文件系统（越狱）64位
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.gcydia.beta
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: ./debs/system/com.gcydia.beta_0.2.12.deb
+Size: 42050
+MD5sum: 8b201355dfbe1a9cb21c4c5d1e9cd0b9
+SHA1: 1b6a67a20dc974dabf18f4e0ffb97c66b6a5e327
+SHA256: 7b5dc92ac7bdfcac8eea5cb4b2789dbf25f39d471569a5b9b89dd94f8d2160f1
+Section: 越狱插件
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite (Beta)
+
+Package: com.gcydia.filza
+Version: 3.8.0-24
+Architecture: iphoneos-arm
+Installed-Size: 31968
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
+Filename: ./debs/system/com.gcydia.filza_3.8.0-24.deb
+Size: 12894978
+MD5sum: e06840fbd424721bf728efd389cceb84
+SHA1: ff135c68eff6e478ebb8a14f9a1fa4f0459dc2b9
+SHA256: ee8e2fb0ed6c721932b7441d8009f6905d2b9ae8c4a9e89a02f7dd5078b11609
+Section: 越狱插件
+Author: DSB
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Name: Filza 文件管理器
+
+Package: com.gcydia.liberty
+Version: 0.2.10
+Architecture: iphoneos-arm
+Installed-Size: 608
+Depends: mobilesubstrate, preferenceloader, applist, firmware (<< 11.0)
+Conflicts: com.abcydia.libertylite
+Filename: ./debs/system/com.gcydia.liberty_0.2.10.deb
+Size: 91738
+MD5sum: d00f1831ce7236834909a1bb7160d99e
+SHA1: 3239e4fd9c7fe0591f29e40e635a6a7abd92e65a
+SHA256: 8f4ae1647ec6b15c9382abcb4640af975d51ce0ceba099ef4d677668e984e376
+Section: 越狱插件
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref@3x.png
+Name: Liberty 铃铛越狱免检测
+
+Package: com.gcydia.openssl
+Version: 0.9.8zg-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/system/com.gcydia.openssl_0.9.8zg-13.deb
+Size: 1031130
+MD5sum: 4bb6d03c26435f0a9705222f484b0f9c
+SHA1: a41cfa6141d33349e7617a02dbe5eabccd10fea6
+SHA256: c923ff276a2890acdf21ed8ceca21faf0cba32ebeefbc983040198c19126772f
+Section: 越狱插件
+Priority: standard
+Author: open
+Name: OpenSSL
+
+Package: com.gcydia.otadisabler
+Version: 0.1-9
+Architecture: iphoneos-arm
+Installed-Size: 204
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debs/system/com.gcydia.otadisabler_0.1-9.deb
+Size: 28354
+MD5sum: ee98aff7a785e8672dfbb1a962dd6a80
+SHA1: b8b42f547a35cac60626203ac47ab818fbc5c1e2
+SHA256: 0de0932c086786aa4c4c88195b68e6be570f89350a4ebf8f87e18fd27b3b3d19
+Section: 越狱插件
+Author: ichitaso
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: OTADisabler屏蔽更新
+
+Package: com.gcydia.preferenceloader
+Version: 2.2.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./debs/system/com.gcydia.preferenceloader_2.2.5.deb
+Size: 33032
+MD5sum: 66c86f605fcbc90b7a117a294298412a
+SHA1: a3919f9648403253fa98ff7a0caac771bc95491e
+SHA256: d619035c02e484f76d9b6e2c75d2fc1e7fb6f873d23b6f9662c27d47ec9984df
+Section: 越狱插件
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: PreferenceLoader
+
+Package: com.gcydia.substitute
+Version: 0.1.15
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner
+Installed-Size: 4768
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode, uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/system/com.gcydia.substitute_0.1.15.deb
+Size: 1177272
+MD5sum: 905698dc54efc2e0f2c78c62e8f6a04d
+SHA1: 17dd1c4e777742e1060b907b7106f2e215626eb6
+SHA256: 193e35a53c4f26b565adf99e4ab0870c50a6e6bd9f68af30f2613a611163a412
+Section: 越狱插件
+Priority: optional
+Author: comex <comexk+da@gmail.com>
+Name: Substitute0.1.15
 
 Package: com.harpe.TaoDevice
 Version: 0.1.4
@@ -151,28 +316,21 @@ Description: Blackbox tool to disable SSL certificate validation - including cer
 Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
-Package: com.tigisoftware.filza
-Version: 3.8.1-29
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 29112
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit
-Filename: ./debs/tools/filza_3.8.1-29.deb
-Size: 9529174
-MD5sum: 245e8bf0ca69f5410690a54d65780569
-SHA1: 848fee7311c1a980e6c38dea75f8ce4974b2079a
-SHA256: 5d28b39b87ceb613ee9da2f687b6f5af4bb7febbf500c4321893a75f16c84e63
-Section: Utilities
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Tag: purpose::uikit
-Author: TIGI Software <satashi2009@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Dev: satashi2009
-Icon: file:///Applications/Filza.app/AppIcon57x57.png
-Name: Filza File Manager
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/system/com.rpetrich.rocketbootstrap_1.0.10~beta1.deb
+Size: 38250
+MD5sum: 06655e84d04bc547d6290382d0e9906e
+SHA1: 36bb05fb45f9ac7065fce0a68f84f90552ecd52a
+SHA256: 97962266893731156ebaeb0f3eff9582f91d429797a804723ab4f91cc27c4b43
+Section: 越狱插件
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich
+Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.touchsprite.ios.arm64.pro.v3
@@ -207,6 +365,24 @@ Section: Tweaks
 Description: SSL Kill Switch 2 (xia0Dev Edition)
 Author: xia0 & Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSLKillSwitchX
+
+Package: mobilesubstrate
+Version: 0.9.7111
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: ./debs/system/mobilesubstrate_0.9.7111.deb
+Size: 2531802
+MD5sum: 4e6e4c2cc0798f9f691b2220d96bc21a
+SHA1: 0412c87062f27c39ccd67cf9bb29410b392ca3da
+SHA256: 87c76a093d6b1203d501d2e23c085ce3e37d6bb82459b1ddf124a6f5dfc8e357
+Section: 越狱插件
+Priority: optional
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Cydia Substrate
 
 Package: openssh
 Version: 8.4-2
@@ -257,6 +433,38 @@ Homepage: https://www.frida.re/
 Description: Inject JavaScript to explore iOS apps over USB.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
+
+Package: unzip
+Version: 6.0+deb9u1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/system/unzip_6.0+deb9u1-1.deb
+Size: 90202
+MD5sum: db1f268f69e9043767783fbc85ea77b7
+SHA1: 9eba6d05f3e2a5827cdfc0728579316ab7df3b07
+SHA256: 150b85c8969aadf20d4c3aae5482c4b602ab2a0f855d6860977f7ae88537e4a8
+Section: 越狱插件
+Priority: important
+Author: unzip
+Name: unzip
+
+Package: zip
+Version: 2.32-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 728
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/system/zip_2.32-1.deb
+Size: 52206
+MD5sum: 990c65532b6cfc38d33999f4998b07a1
+SHA1: 91e43e8f0f286480b1aba1d5eee4bdedda61789b
+SHA256: 06a128ee626420242b9a20adc75b1317cdc6f86621d4de0a4fff72ab2d413472
+Section: 越狱插件
+Priority: important
+Author: zip
+Name: zip
 
 Package: zorro5889
 Version: 5.8.8-9
